@@ -42,7 +42,8 @@ PreparedStatement ps = con.prepareStatement("select * from adminlogin where user
 		catch(Exception e)
 		{
 		System.out.println(e. toString());
-		}
+	System.out.println("i am making modifications");
+	}
 
 	}
 }
